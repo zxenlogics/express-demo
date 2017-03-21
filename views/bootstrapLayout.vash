@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+   <title>@model.title</title>
+   <link href='/css/site.css' rel='stylesheet' />
+</head>
+<body>
+  <h1>Bootstrap Layout</h1>
+
+   <div>@html.block("body")</div>
+
+</body>
+</html>
